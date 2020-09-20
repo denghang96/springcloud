@@ -48,6 +48,10 @@ public class PaymentController {
         }
     }
 
+    /**
+     * 查询Eureka能提供的服务信息
+     * @return
+     */
     @GetMapping("/payment/discovery")
     public Object discovery() {
         List<String> services = discoveryClient.getServices();
