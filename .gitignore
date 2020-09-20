@@ -1,0 +1,10 @@
+.idea
+.iml
+/*.iml
+target
+/cloud-api-commons/target
+/cloud-consumer-order80/*.iml
+/cloud-consumer-order80/target
+/cloud-provider-pament8001/target
+/*/target
+/*/*.iml
