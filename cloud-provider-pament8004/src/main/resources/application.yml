@@ -6,4 +6,7 @@ spring:
     name: cloud-payment-service #名称很重要，不能随意更改，因为这个服务名称会注册进Zookeeper中
   cloud:
     zookeeper:
-      connect-string: 192.168.1.102:2181
+      #集群用这个
+      connect-string: 192.168.1.104:2181,192.168.1.105:2181,192.168.1.106:2181
+      #单机用这个
+      #connect-string: 192.168.1.102:2181
