@@ -1,0 +1,1 @@
+OpenFeign的使用，注册中心用的eureka
