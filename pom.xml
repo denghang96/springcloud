@@ -20,6 +20,8 @@
     <module>cloud-consumerconsul-order80</module>
     <module>cloud-consumer-feign-order80</module>
     <module>cloud-consumer-feign-zk-order80</module>
+      <module>cloud-provider-hystrix-pament8001</module>
+    <module>cloud-consumer-feign-hystrix-order80</module>
   </modules>
   <packaging>pom</packaging>
 
