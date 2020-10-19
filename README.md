@@ -8,3 +8,4 @@
 ####7.openFeign cloud-consumer-feign-order80 + cloud-provider-pament8001 + cloud-provider-pament8002 + cloud-eureka-server7001 + cloud-eureka-server7002
 ####8.openFeign+zookeeper cloud-consumer-feign-zk-order80 + cloud-provider-pament8004 
 ####9.Hystrix服务治理cloud-provider-hystrix-pament8001 + cloud-consumer-feign-hystrix-order80 降级、熔断、限流
+####10.cloud-consumer-hystrix-dashborad9001 + cloud-provider-hystrix-pament8001 dashborad9001监控pament8001
