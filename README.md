@@ -9,3 +9,4 @@
 ####8.openFeign+zookeeper cloud-consumer-feign-zk-order80 + cloud-provider-pament8004 
 ####9.Hystrix服务治理cloud-provider-hystrix-pament8001 + cloud-consumer-feign-hystrix-order80 降级、熔断、限流
 ####10.cloud-consumer-hystrix-dashborad9001 + cloud-provider-hystrix-pament8001 dashborad9001监控pament8001
+####11.cloud-gateway-gateway9527做网关 ， cloud-eureka-server7001 + cloud-eureka-server7002 做注册中心集群，cloud-provider-pament8001做服务提供者
