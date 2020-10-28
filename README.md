@@ -10,3 +10,4 @@
 #### 9.Hystrix服务治理cloud-provider-hystrix-pament8001 + cloud-consumer-feign-hystrix-order80 降级、熔断、限流
 #### 10.cloud-consumer-hystrix-dashborad9001 + cloud-provider-hystrix-pament8001 dashborad9001监控pament8001
 #### 11.cloud-gateway-gateway9527做网关 ， cloud-eureka-server7001 + cloud-eureka-server7002 做注册中心集群，cloud-provider-pament8001做服务提供者
+#### 12.cloud-config-center-3344做配置中心，cloud-config-client-3355和cloud-config-client-3366为需要加载公共配置的微服务，cloud-eureka-server7001的单机版做注册中心，SpringCloud Config + SpringCloud Bus

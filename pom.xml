@@ -24,6 +24,9 @@
     <module>cloud-consumer-hystrix-dashborad9001</module>
     <module>cloud-consumer-feign-hystrix-order80</module>
       <module>cloud-gateway-gateway9527</module>
+      <module>cloud-config-center-3344</module>
+    <module>cloud-config-client-3355</module>
+    <module>cloud-config-client-3366</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -110,6 +113,15 @@
         <configuration>
           <fork>true</fork>
           <addResources>true</addResources>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
     </plugins>
