@@ -12,3 +12,4 @@
 #### 11.cloud-gateway-gateway9527做网关 ， cloud-eureka-server7001 + cloud-eureka-server7002 做注册中心集群，cloud-provider-pament8001做服务提供者
 #### 12.cloud-config-center-3344做配置中心，cloud-config-client-3355和cloud-config-client-3366为需要加载公共配置的微服务，cloud-eureka-server7001的单机版做注册中心，SpringCloud Config + SpringCloud Bus
 #### 13.loud-stream-rabbitmq-provider8801 + loud-stream-rabbitmq-provider8802 + loud-stream-rabbitmq-provider8803 + cloud-eureka-server7001
+#### 14.本机nacos server + cloudalibaba-provider-payment9001 + cloudalibaba-provider-payment9002 + cloudalibaba-consumer-nacos-order83 nacos做服务注册中心以及负载均衡
