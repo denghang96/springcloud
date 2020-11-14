@@ -1,0 +1,15 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        #namespace: 123-asd-12312123 #在nacos新建命名空间后会返回一个id串
+        #group: DEFAULT_GROUP 命名空间下的分组
+      discovery:
+          server-addr: localhost:8848
